@@ -1,0 +1,14 @@
+{
+    "name": {
+        "first": "Khanh",
+        "last": "Chung"
+    },
+    "fromWisconsin": false,
+    "numCredits": 18,
+    "major": "Software Engineering",
+    "interests": [
+        "Coding",
+        "Video Games",
+        "Travel"
+    ]
+}
