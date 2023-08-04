@@ -53,7 +53,7 @@ function buildStudentsHtml(studs) {
  * @returns 
  */
 function buildStudentHtml(stud) {
-	let html = `<div class="col-xs-1 col-sm-2 col-md-3 col-lg-4 col-xl-6">`;
+	let html = `<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">`;
 	html += `<h2>${stud.name.first} ${stud.name.last}</h2>`;
 	html += `<strong><p>${stud.major}</p></strong>`;
 	html += `<p>${stud.name.first} is taking ${stud.numCredits} and is ${stud.fromWisconsin ? '' : 'not '}from Wisconsin</p>`;
